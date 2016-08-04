@@ -22,7 +22,7 @@ $ tsd install
 $ tsc
 ```
 
-## Run the Server
+## Run the Test Server
 ```
 $ npm run test
 ```
