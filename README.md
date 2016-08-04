@@ -16,7 +16,7 @@ $ npm install
 $ bower install
 ```
 
-## Compile the typescript
+## Compile the TypeScript
 ```
 $ tsc
 ```
