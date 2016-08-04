@@ -70,7 +70,7 @@ class TicTacToe {
             let box3 = $("#pos_" + positions[2]);
 
             // See if there is a winner
-            if($(box1).hasClass("x") && $(box2).hasClass("x") && $(box3).hasClass("x") || $(box1).hasClass("y") && $(box2).hasClass("y") && $(box3).hasClass("y")) {
+            if(($(box1).hasClass("x") && $(box2).hasClass("x") && $(box3).hasClass("x")) || ($(box1).hasClass("y") && $(box2).hasClass("y") && $(box3).hasClass("y")) {
                 // Set the flag
                 this._winnerFl = true;
 
