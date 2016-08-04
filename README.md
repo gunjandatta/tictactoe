@@ -14,5 +14,9 @@ Run the following commands:
 ```
 $ npm install
 $ bower install
+```
+
+## Run the Server
+```
 $ npm run test
 ```
