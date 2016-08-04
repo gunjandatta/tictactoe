@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>Tic Tac Toe</title>
+        <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="app/tictactoe.css">
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="jumbotron">                
+                <h1>Tic Tac Toe</h1>
+            </div>
+            <div class="row" name="top">
+                <div class="col-md-offset-1 col-md-1">
+                    <a id="btnNewGame" href="#" class="btn btn-default" role="button">New Game</a>
+                </div>
+                <div id="pos_00" class="box col-md-1 text-center"></div>
+                <div id="pos_01" class="box col-md-1 text-center"></div>
+                <div id="pos_02" class="box col-md-1 text-center"></div>
+            </div>
+            <div class="row" name="middle">
+                <div class="col-md-offset-1 col-md-1">
+                    <div>Next Move: <span id="nextMove"></span></div>
+                </div>
+                <div id="pos_10" class="box col-md-1 text-center"></div>
+                <div id="pos_11" class="box col-md-1 text-center"></div>
+                <div id="pos_12" class="box col-md-1 text-center"></div>
+            </div>
+            <div class="row" name="bottom">
+                <div class="col-md-2">
+                    <p>
+                        <h3 id="statusMessage"></h3>
+                    </p>
+                </div>
+                <div id="pos_20" class="box col-md-1 text-center"></div>
+                <div id="pos_21" class="box col-md-1 text-center"></div>
+                <div id="pos_22" class="box col-md-1 text-center"></div>
+            </div>
+        </div>
+
+        <!-- Scripts -->
+        <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+        <script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="app/tictactoe.js"></script>
+    </body>
+</html>

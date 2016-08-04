@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "outFile": "app/tictactoe.js",
+        "sourceMap": true,
+        "target": "es5"
+    },
+    "files": [
+        "app/tictactoe.ts"
+    ]
+}
