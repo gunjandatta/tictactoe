@@ -2,7 +2,7 @@
 I'm teaching myself TypeScript, so I created a small project.
 
 ## Requirements
-NodeJS and Git must be installed.
+[NodeJS](https://nodejs.org/en) and [Git](https://git-scm.com) must be installed.
 
 ## Installation
 Run the following commands:
