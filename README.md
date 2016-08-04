@@ -14,6 +14,7 @@ Run the following commands:
 ```
 $ npm install
 $ bower install
+$ tsd install
 ```
 
 ## Compile the TypeScript
