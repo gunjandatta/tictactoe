@@ -1,0 +1,6 @@
+.vscode
+app/*.js
+app/*.js.map
+bower_components
+node_modules
+typings
