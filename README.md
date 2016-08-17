@@ -13,7 +13,7 @@ $ npm install -g tsd
 Run the following commands:
 ```
 $ npm install
-$ tsd install
+$ tsd install (For the typescript definitions)
 ```
 
 ## Compile the TypeScript
