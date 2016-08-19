@@ -33,7 +33,7 @@ var TicTacToe = (function () {
             return;
         }
         // Ensure this hasn't been selected
-        if ($(box).hasClass("x y")) {
+        if ($(box).hasClass("x") || $(box).hasClass("y")) {
             return;
         }
         // Set the class

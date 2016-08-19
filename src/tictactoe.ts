@@ -42,7 +42,7 @@ class TicTacToe {
             if(this._currentMove == "Y") { return; }
 
             // Ensure this hasn't been selected
-            if($(box).hasClass("x y")) { return; }
+            if($(box).hasClass("x") || $(box).hasClass("y")) { return; }
 
             // Set the class
             $(box).addClass("x");
