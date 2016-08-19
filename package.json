@@ -1,7 +1,7 @@
 {
   "name": "tictactoe",
   "version": "1.0.0",
-  "description": "2-Player tic tac toe game.",
+  "description": "1-Player tic tac toe game.",
   "main": "index.js",
   "scripts": {
     "test": "lite-server"
