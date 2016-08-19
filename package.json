@@ -4,7 +4,9 @@
   "description": "1-Player tic tac toe game.",
   "main": "index.js",
   "scripts": {
-    "test": "lite-server"
+    "build": "tsc && gulp",
+    "test": "lite-server",
+    "pretest": "npm run build"
   },
   "author": "Gunjan Datta",
   "license": "ISC",
@@ -13,6 +15,8 @@
     "jquery": "^3.1.0"
   },
   "devDependencies": {
-    "lite-server": "^2.2.2"
+    "gulp": "^3.9.1",
+    "lite-server": "^2.2.2",
+    "tsd": "^0.6.5"
   }
 }
