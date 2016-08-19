@@ -17,4 +17,4 @@ $ npm run test
 ```
 
 ## Demo
-[Click here](https://gunjandatta.github.io/tictactoe/index.html) for the demo. Not sure why the app files can't be referenced... [TO DO]
+[Click here](https://gunjandatta.github.io/tictactoe/index.html) for the demo.
